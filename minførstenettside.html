@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Nettside</title>
+    <style>
+        body {
+            background-color: #ff00c8; /* Bakgrunnsfarge */
+            font-family: Arial, sans-serif; /* Velg skrifttype */
+            text-align: center; /* Sentrer tekst */
+            padding: 20px; /* Legg til litt padding for bedre utseende */
+        }
+
+        #knapp1, #knapp2 {
+            background-color: #4CAF50; /* Bakgrunnsfarge for knapper */
+            color: rgb(255, 255, 255); /* Tekstfarge for knapper */
+            padding: 10px 20px; /* Padding for knapper */
+            font-size: 16px; /* Skriftstørrelse for knapper */
+            margin: 10px; /* Margin mellom knapper */
+            cursor: pointer; /* Endre musepekeren til en hånd når du svever over knappen */
+        }
+    </style>
+</head>
+<body>
+    <h1>Vil du være min Valentine<3 </h1>
+
+    <button id="knapp1">Ja</button>
+    <button id="knapp2">Nei</button>
+
+    <script>
+        // JavaScript-kode kan legges til her for å legge til funksjonalitet til knappene, hvis nødvendig
+        document.getElementById('knapp1').addEventListener('click', function() {
+            alert('YippY!');
+        });
+
+        document.getElementById('knapp2').addEventListener('click', function() {
+            alert('NEI er ikke et valg!');
+        });
+    </script>
+</body>
+</html>
